@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
+    
+    .container {
+    position: relative;
+    display: inline-block;
+    }
+    
+    .btn-avancar {
+    position: absolute;
+    top: 60%; /* Posiciona a 70% do topo do contêiner pai */
+    left: 250px; /* Posiciona à esquerda do contêiner pai com um espaço de 20px */
+    transform: translate(0, -50%); /* Centraliza verticalmente o botão */
+    background-color: #ffffff; /* Cor verde */
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 35px 50px; /* Aumenta o padding para um botão maior */
+    font-size: 36px; /* Aumenta o tamanho da fonte */
+    border: none;
+    border-radius: 15px; /* Borda mais arredondada */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra mais pronunciada */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave de cor ao passar o mouse */
+    }
+    
+    .btn-avancar:hover {
+    background-color:rgb(68, 0, 255); /* Cor verde mais escura ao passar o mouse */
+    box-shadow:0 0 10px rgba(68, 0, 255, 1), 0 0 20px rgba(68, 0, 255, 1), 0 0 30px rgba(68, 0, 255, 1); /* Efeito neon */
+    }
+    
+    
+    img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+    }
+    
+    p {
+    position: absolute;
+    top: 30%; /* Posiciona a metade do topo do contêiner pai */
+    left: 20%; /* Posiciona a metade da largura do contêiner pai */
+    transform: translate(-50%, -50%); /* Centraliza o texto no meio */
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    }
+    h1{
+    font-family: 'Marhey';
+    position: absolute;
+    top: 10%; /* Posiciona a metade do topo do contêiner pai */
+    left: 28%; /* Posiciona a metade da largura do contêiner pai */
+    transform: translate(-50%, -50%); /* Centraliza o texto no meio */
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(68, 0, 255), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1);
+    }

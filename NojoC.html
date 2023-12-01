@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cores.css">
+    <style type="text/css">
+        body{
+    background-color: #008b17;
+    }
+    button {
+ display: inline-block;
+ border-radius: 4px;
+ background-color: #008b17;
+ border: none;
+ color: #FFFFFF;
+ text-align: center;
+ font-size: 17px;
+ padding: 16px;
+ width: 130px;
+ transition: all 0.5s;
+ cursor: pointer;
+ margin: 5px;
+}
+
+button span {
+ cursor: pointer;
+ display: inline-block;
+ position: relative;
+ transition: 0.5s;
+}
+
+button span:after {
+ content: '»';
+ position: absolute;
+ opacity: 0;
+ top: 0;
+ right: -15px;
+ transition: 0.5s;
+}
+
+button:hover span {
+ padding-right: 15px;
+}
+
+button:hover span:after {
+ opacity: 1;
+ right: 0;
+}
+    </style>
+    <title>JogoDivertidamente</title>
+</head>
+<body>
+<center><h1>Jogo da adivinhação das cores</h1></center>
+<div id="form">
+<center>
+    <p>Parabéns, você acertou!</p>
+        <h2>NOJO</h2><br>
+    <img wdth="500px" height="400px" src="https://scontent.ffor23-1.fna.fbcdn.net/v/t39.30808-6/401845849_122099164202120371_6453213506656492963_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeGqp2I_ZpvJ6bLYXSLd8tDOO3i9cPOwMuM7eL1w87Ay40V5SpYagLcgrrjVmgPjgHhXEze_s8UcKucv7LFtCHwP&_nc_ohc=iwr3Ty2Dgh4AX-g8uTN&_nc_ht=scontent.ffor23-1.fna&oh=00_AfAAJw_atkjdel8y991Ltj8gMM_ogvxV0YVF2F7iGfExRw&oe=65702A8E" alt="imagem">
+    <br><br>
+    <a href="Tristeza.html">
+        <button>
+        <span>Continuar</span>
+      </button>
+</a>
+<div id="teste">
+</center>
+</div>
+</div>
+</body>
+</html>
