@@ -2,25 +2,26 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
+    background-color: #333;
+    color: #333;
     text-align: center;
     flex-direction: column;
     height: 100vh;
 }
-
 h1 {
     font-family: 'Staatliches', sans-serif;
-    color: #fff; 
+    color: #fff;
 }
 
-h2 {
+h2{
     font-size: 30px;
 }
 
-p {
+p{
     font-size: 25px;
 }
 
-.p {
+.p{
     padding: 20px;
     font-size: 15px;
     color: #fff;
@@ -42,64 +43,32 @@ img {
 }
 
 button {
+    border-style: none;
+}
+
+.bola1, .bola2, .bola3, .bola4 {
     display: inline-block;
-    border-radius: 4px;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 17px;
-    padding: 16px;
-    width: 130px;
-    transition: all 0.5s;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     cursor: pointer;
-    margin: 5px;
-   }
-
-.alegria {
-    background-color: #f5e610;
 }
 
-.medo {
-    background-color: #913DC4;
+.bola1 {
+    background-color: #0a0946;
 }
 
-.nojo {
-    background-color: #008b17;
+.bola2 {
+    background-color: #380606; 
 }
 
-.tristeza {
-    background-color: #0838A1;
+.bola3 {
+    background-color: #00ffbf; 
 }
 
-.raiva {
-    background-color: #FF0308;
+.bola4 {
+    background-color: #008b17; 
 }
-   
-button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-   }
-   
-button span:after {
-    content: '»';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -15px;
-    transition: 0.5s;
-   }
-   
-button:hover span {
-    padding-right: 15px;
-   }
-   
-button:hover span:after {
-    opacity: 1;
-    right: 0;
-   }
-
 
 @media screen and (min-width: 380px) {
     img {

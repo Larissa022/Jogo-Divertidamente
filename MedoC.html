@@ -1,71 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/136/136724.png">
+    <title>Jogo Divertida Mente</title>
+
+     <!-- Normalize CSS-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <!-- Font Staatliches -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+     
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/global.css">
     <style type="text/css">
         body{
-    background-color: #913DC4;
-    }
-    button {
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #913DC4;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 17px;
-    padding: 16px;
-    width: 130px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-    }
-
-    button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-    }
-
-    button span:after {
-    content: '»';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -15px;
-    transition: 0.5s;
-    }
-
-    button:hover span {
-    padding-right: 15px;
-    }
-
-    button:hover span:after {
-    opacity: 1;
-    right: 0;
-    }
+            background-color: #913DC4;
+        }
     </style>
-    <title>JogoDivertidamente</title>
 </head>
+
 <body>
-<center><h1>Jogo da adivinhação das cores</h1></center>
-    <div id="form">
-<center>
+    <h1>ADIVINHA-CORES</h1>
+    <section class="content">
     <p>Parabéns, você acertou!</p>
         <h2>MEDO</h2><br>
-    <img wdth="500px" height="400px" src="assets/images/MedoC.jpg" alt="Imagem Colorida do Medo"><br><br>
-    <a href="Nojo.html">
-        <button>
-        <span>Continuar</span>
-      </button>
-</a>
-<div id="teste">
-</center>
-</div>
-</div>
+        <img src="assets/images/MedoC.jpg" alt="Imagem do Medo Colorida"> <br><br>
+        <a href="Nojo.html">
+            <button class="medo">
+                <span>Continuar</span>
+            </button>
+        </a>
+    </section>
+    <p class="p">feito com ♡ por Larissa</p>
 </body>
+
 </html>
