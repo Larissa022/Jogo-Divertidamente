@@ -5,14 +5,14 @@
 
 ## About
 
-Esse projeto foi desenvolvido para uma feira de cursos da escola, e depois fui aprimorando para ficar mais elegante e divertido.
+Este projeto foi inicialmente desenvolvido para uma feira de cursos da escola, tendo como base o filme "Divertida Mente". Posteriormente, fui aprimorando-o para torná-lo mais interessante e divertido.
 
-## Como Jogar?
+## To play?
 
 ![Adivinha-cores](assets/images/fase.png)
 
-Para jogar basta clicar em um dos 4 botões e se você acertar irá para outra página, mas se você errar irá voltar do início. 
+Para jogar você só precisa clicar em um dos quatro botões disponíveis. Se você acertar, será redirecionado para a próxima página, mas se errar você retornará ao início do jogo para tentar novamente. O desafio é progredir clicando nos botões corretos, testando sua habilidade e concentração.
 
-## Comentários
+## Comments
 
-Provalvemente vou fazer algumas melhorias no futuro, então o projeto ainda não está totalmente finalizado. 
+Provavelmente farei algumas melhorias no futuro, então o projeto ainda não está totalmente finalizado.
